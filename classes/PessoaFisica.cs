@@ -6,9 +6,10 @@ namespace AulaPOO_Heranca.classes
         public string rg;
 
 
-        public bool ValidarCPF(string cpf){
-            if (cpf != "")
+        public bool ValidarCPF(string documento){
+            if (documento != "")
             {
+                System.Console.WriteLine("CPF Válido");
                 return true;
             }
 

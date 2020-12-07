@@ -5,10 +5,12 @@ namespace AulaPOO_Heranca.classes
         public string cnpj;
         public string incricaoEstadal;
 
-        public bool ValidarCNPJ(string cnpj)
+        public bool ValidarCNPJ(string documento)
         {
-            if (cnpj != "")
+            if (documento != "")
             {
+                System.Console.WriteLine("CNPJ Válido");
+
                 return true;
             }
             return false;

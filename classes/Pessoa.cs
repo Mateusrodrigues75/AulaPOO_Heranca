@@ -6,7 +6,7 @@ namespace AulaPOO_Heranca.classes
     {
         public string nome;
 
-        public string DarBoasVidas(string nomeUsuario)
+        public string DarBoasVindas(string nomeUsuario)
         {
             return $"Bem-Vindo ao nosso sistema - {nomeUsuario}";
         }
